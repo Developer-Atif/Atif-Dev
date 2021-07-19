@@ -12,14 +12,16 @@ body{
 }
 header{
    background-color: rgba(13,5,38,255);
-   float: none; 
+   margin-right: -110px;
+   padding-top: 300px;
+   float: none;
    text-align: center;
-   padding: 12px;
+   padding-bottom: 130px;
    text-decoration: none;
    font-size: 18px;
-   line-height: 25px;
-   border-radius: 4px;
- 
+   line-height: 20px;
+   
+   
    
    
    
@@ -50,6 +52,10 @@ li.nav{
    margin-right: -10px;
    background-color: rgb(0, 140, 255);
    border-radius: 10px;
+   margin-bottom: 10px;
+   margin-top: 10px;
+   padding-bottom: 8px;
+   
 }
 ul{
   margin-right: 100px;
@@ -92,6 +98,7 @@ button{
   margin-top: 80px;
   margin-left: -100px;
   font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 10px;
 }
 li:hover{
   background-color: rgb(0, 255, 21);
@@ -109,8 +116,4 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: auto;
 }
-@media screen and (max-width: 100px) {
-    .features{
-        font-size: 10px;
-    }
-}
+
