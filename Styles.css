@@ -41,8 +41,6 @@ section{
     margin-top: 170px;
     text-align: center;
 }
-@media screen and (max-width: 400px){
-    .hd1_top{
-        font-size: 10px;
-    }
+h1.hd1_top{
+    font-size: 50px;
 }
