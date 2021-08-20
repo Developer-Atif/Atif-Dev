@@ -1,119 +1,41 @@
 body{
-    background-color: rgb(255, 255, 255);
-    color: black;
-    padding: 0;
-    margin: 10px;
-    margin-left: 10px;
-    overflow-x: hidden;
-    margin: auto;
-    
-    
-    
-}
-header{
-   background-color: rgba(13,5,38,255);
-   margin-right: -110px;
-   padding-top: 300px;
-   float: none;
-   text-align: center;
-   padding-bottom: 130px;
-   text-decoration: none;
-   font-size: 18px;
-   line-height: 20px;
-   
-   
-   
-   
-   
-}
-section{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   background-color: white;
-   padding: 40px;
-   font-size: 40px;
-   border-radius: 15px;
-
-
-   
-} 
-footer{
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: black;
-  color: white;
-  padding: 50px;
-  font-size: 20px;
-  margin-top: 300px;
-  margin-left: auto;
-}
-li.nav{
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   font-size: 30px;
-   display: inline-block;
-   margin-right: -10px;
-   background-color: rgb(0, 140, 255);
-   border-radius: 10px;
-   margin-bottom: 10px;
-   margin-top: 10px;
-   padding-bottom: 8px;
-   
-}
-ul{
-  margin-right: 100px;
-  padding: 0;
-  margin-top: -50px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 div{
-  height: 70px;
-  margin-top: 130px;
-  text-align: center;
-}
-p{
-  font-size: 25px;
-}
-h5{
-  margin-top: -50;
-}
-li.yt{
-  font-size: 25px;
-  margin-right: 20px;
-  margin-left: 480px;
-  display: inline-block;
-  
-}
-li.bl{
-  font-size: 25px;
-  margin-right: 20px;
-  display: inline-block;
-}
-li.tw{
-  font-size: 25px;
-  margin-right: 20px;
-  display: inline-block;
-}
-button{
-  font-size: 30px;
-  background-color: blue;
-  border-color: black;
-  border-radius: 10px;
-  margin-top: 80px;
-  margin-left: -100px;
-  font-family: Arial, Helvetica, sans-serif;
-  padding-bottom: 10px;
-}
-li:hover{
-  background-color: rgb(0, 255, 21);
-  border-radius: 10px;
-}
-button:hover{
-  background-color: rgb(9, 255, 0);
-}
-p.about-text{
-  margin-top: -100px;
-  margin-bottom: 30px;
+    font-size: 40px;
+    padding-top: 15px;
 }
 h1{
-    color: blue;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: auto;
+    font-size: 70px;
+}
+section{
+    text-align: center;
+    margin-top: 100px;
+}
+.top{
+    padding-top: 70px;
+    padding-bottom: 200px;
 }
 
+.Next1{
+    background-color: rgb(111, 111, 223);
+    border-radius: 10px;
+}
+.Next1:hover{
+    background-color: red;
+}
+.projects{
+    background-color: rgb(27, 144, 199);
+    border-radius: 10px;
+}
+.projects:hover{
+    background-color: red;
+}
+.foot{
+    background-color: black;
+}
+.tophead{
+    color: rgb(27, 27, 70);
+    display: inline-block;
+    margin-top: 170px;
+}
