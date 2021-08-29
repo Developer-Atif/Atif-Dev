@@ -11,7 +11,7 @@ h1{
 }
 section{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 .top{
     padding-top: 70px;
@@ -28,6 +28,7 @@ section{
 .projects{
     background-color: rgb(27, 144, 199);
     border-radius: 10px;
+    text-decoration: none;
 }
 .projects:hover{
     background-color: red;
@@ -38,10 +39,46 @@ section{
 .tophead{
     color: rgb(27, 27, 70);
     display: inline-block;
-    margin-top: 170px;
+    margin-top: 220px;
     text-align: center;
+    
+}
+.projects_top{
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(27, 144, 199);
+    text-decoration: none;
+}
+.projects_top_div{
+    margin-top: -200px;
+    margin-bottom: 200px;
+}
+.projects_top:hover{
+    background-color: red;
 }
 h1.hd1_top{
     font-size: 50px;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.element::-webkit-scrollbar { width: 0 !important }
+@media (max-width: 400px){
+    .tophead{
+        font-size: 60px;
+        margin-bottom: 100px;
+        margin-top: 200px;
+    }
+    h1.hd1_top{
+        font-size: 50px;
+    }
+    body{
+        font-size: 27px;
+    }
 }
 
